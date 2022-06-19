@@ -7,23 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780E4F71284BCDB500DE408E /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E4F70284BCDB500DE408E /* ReportTableViewCell.swift */; };
+		780E4F74284BD7EE00DE408E /* ReportTableCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E4F73284BD7EE00DE408E /* ReportTableCellVM.swift */; };
+		780E4F76284C4EA200DE408E /* ReportTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E4F75284C4EA200DE408E /* ReportTableVM.swift */; };
 		78295C7D284859CE00906764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C7C284859CE00906764 /* AppDelegate.swift */; };
 		78295C7F284859CE00906764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C7E284859CE00906764 /* SceneDelegate.swift */; };
-		78295C81284859CE00906764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C80284859CE00906764 /* ViewController.swift */; };
+		78295C81284859CE00906764 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C80284859CE00906764 /* MainViewController.swift */; };
 		78295C84284859CE00906764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78295C82284859CE00906764 /* Main.storyboard */; };
 		78295C86284859CF00906764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78295C85284859CF00906764 /* Assets.xcassets */; };
 		78295C89284859CF00906764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78295C87284859CF00906764 /* LaunchScreen.storyboard */; };
+		78295C9228485DAB00906764 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78295C9128485DAB00906764 /* Alamofire */; };
+		78295C9528485E4900906764 /* UsdaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C9428485E4900906764 /* UsdaService.swift */; };
+		78295C9928485FC000906764 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C9828485FC000906764 /* ReportModel.swift */; };
+		78295C9C2848684F00906764 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295C9B2848684F00906764 /* Extensions.swift */; };
+		78295CA52849A4EF00906764 /* ReportTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78295CA42849A4EF00906764 /* ReportTableView.swift */; };
+		783DECA4285A64A40062343E /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECA3285A64A40062343E /* DateHelpers.swift */; };
+		783DECA6285ACB630062343E /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECA5285ACB630062343E /* ReportView.swift */; };
+		783DECA8285AD9400062343E /* ReportViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECA7285AD9400062343E /* ReportViewVM.swift */; };
+		783DECAC285D55770062343E /* ReportSectionSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECAB285D55770062343E /* ReportSectionSummary.swift */; };
+		783DECAE285D58870062343E /* ModelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECAD285D58870062343E /* ModelMap.swift */; };
+		783DECB0285D75510062343E /* ReportSectionSummaryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECAF285D75510062343E /* ReportSectionSummaryTableView.swift */; };
+		783DECB2285D76260062343E /* ReportSectionSummaryViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECB1285D76260062343E /* ReportSectionSummaryViewVM.swift */; };
+		783DECB4285E48920062343E /* SummarySectionResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECB3285E48920062343E /* SummarySectionResultCell.swift */; };
+		783DECB7285E51A10062343E /* SummarySectionResultCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECB6285E51A10062343E /* SummarySectionResultCellVM.swift */; };
+		783DECB9285EB0D40062343E /* ReportSectionCurrentVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECB8285EB0D40062343E /* ReportSectionCurrentVolume.swift */; };
+		783DECBC285EC00D0062343E /* CurrentVolumeSectionResultCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECBB285EC00D0062343E /* CurrentVolumeSectionResultCellVM.swift */; };
+		783DECBE285EC5C60062343E /* ReportSectionCurrentVolumeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECBD285EC5C60062343E /* ReportSectionCurrentVolumeTableView.swift */; };
+		783DECC0285EC6550062343E /* ReportSectionCurrentVolumeViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECBF285EC6550062343E /* ReportSectionCurrentVolumeViewVM.swift */; };
+		783DECC2285EC85A0062343E /* CurrentVolumeSectionResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783DECC1285EC85A0062343E /* CurrentVolumeSectionResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780E4F70284BCDB500DE408E /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		780E4F73284BD7EE00DE408E /* ReportTableCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableCellVM.swift; sourceTree = "<group>"; };
+		780E4F75284C4EA200DE408E /* ReportTableVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableVM.swift; sourceTree = "<group>"; };
 		78295C79284859CE00906764 /* USDA_AMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USDA_AMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78295C7C284859CE00906764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78295C7E284859CE00906764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78295C80284859CE00906764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78295C80284859CE00906764 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		78295C83284859CE00906764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78295C85284859CF00906764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78295C88284859CF00906764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78295C8A284859CF00906764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78295C9428485E4900906764 /* UsdaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsdaService.swift; sourceTree = "<group>"; };
+		78295C9828485FC000906764 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		78295C9B2848684F00906764 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		78295CA42849A4EF00906764 /* ReportTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableView.swift; sourceTree = "<group>"; };
+		783DECA3285A64A40062343E /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		783DECA5285ACB630062343E /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		783DECA7285AD9400062343E /* ReportViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewVM.swift; sourceTree = "<group>"; };
+		783DECAB285D55770062343E /* ReportSectionSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionSummary.swift; sourceTree = "<group>"; };
+		783DECAD285D58870062343E /* ModelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMap.swift; sourceTree = "<group>"; };
+		783DECAF285D75510062343E /* ReportSectionSummaryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionSummaryTableView.swift; sourceTree = "<group>"; };
+		783DECB1285D76260062343E /* ReportSectionSummaryViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionSummaryViewVM.swift; sourceTree = "<group>"; };
+		783DECB3285E48920062343E /* SummarySectionResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarySectionResultCell.swift; sourceTree = "<group>"; };
+		783DECB6285E51A10062343E /* SummarySectionResultCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarySectionResultCellVM.swift; sourceTree = "<group>"; };
+		783DECB8285EB0D40062343E /* ReportSectionCurrentVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionCurrentVolume.swift; sourceTree = "<group>"; };
+		783DECBB285EC00D0062343E /* CurrentVolumeSectionResultCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentVolumeSectionResultCellVM.swift; sourceTree = "<group>"; };
+		783DECBD285EC5C60062343E /* ReportSectionCurrentVolumeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionCurrentVolumeTableView.swift; sourceTree = "<group>"; };
+		783DECBF285EC6550062343E /* ReportSectionCurrentVolumeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSectionCurrentVolumeViewVM.swift; sourceTree = "<group>"; };
+		783DECC1285EC85A0062343E /* CurrentVolumeSectionResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentVolumeSectionResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +74,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78295C9228485DAB00906764 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780E4F6F284BCD9B00DE408E /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				780E4F70284BCDB500DE408E /* ReportTableViewCell.swift */,
+				783DECB3285E48920062343E /* SummarySectionResultCell.swift */,
+				783DECC1285EC85A0062343E /* CurrentVolumeSectionResultCell.swift */,
+			);
+			path = CellViews;
+			sourceTree = "<group>";
+		};
+		780E4F72284BD7B500DE408E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				783DECB5285E51870062343E /* CellVM */,
+				780E4F75284C4EA200DE408E /* ReportTableVM.swift */,
+				783DECA7285AD9400062343E /* ReportViewVM.swift */,
+				783DECB1285D76260062343E /* ReportSectionSummaryViewVM.swift */,
+				783DECBF285EC6550062343E /* ReportSectionCurrentVolumeViewVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		78295C70284859CE00906764 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +122,86 @@
 		78295C7B284859CE00906764 /* USDA_AMS */ = {
 			isa = PBXGroup;
 			children = (
+				780E4F72284BD7B500DE408E /* ViewModels */,
+				78295CA32849A4DE00906764 /* Views */,
+				78295C9A2848684400906764 /* Utils */,
+				78295C9628485F8B00906764 /* Models */,
+				78295C9328485E2800906764 /* APIs */,
 				78295C7C284859CE00906764 /* AppDelegate.swift */,
 				78295C7E284859CE00906764 /* SceneDelegate.swift */,
-				78295C80284859CE00906764 /* ViewController.swift */,
+				78295C80284859CE00906764 /* MainViewController.swift */,
 				78295C82284859CE00906764 /* Main.storyboard */,
 				78295C85284859CF00906764 /* Assets.xcassets */,
 				78295C87284859CF00906764 /* LaunchScreen.storyboard */,
 				78295C8A284859CF00906764 /* Info.plist */,
 			);
 			path = USDA_AMS;
+			sourceTree = "<group>";
+		};
+		78295C9328485E2800906764 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				78295C9428485E4900906764 /* UsdaService.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		78295C9628485F8B00906764 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78295C9728485F9400906764 /* dto */,
+				783DECAD285D58870062343E /* ModelMap.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78295C9728485F9400906764 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				78295C9828485FC000906764 /* ReportModel.swift */,
+				783DECAB285D55770062343E /* ReportSectionSummary.swift */,
+				783DECB8285EB0D40062343E /* ReportSectionCurrentVolume.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		78295C9A2848684400906764 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				78295C9B2848684F00906764 /* Extensions.swift */,
+				783DECA3285A64A40062343E /* DateHelpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		78295CA32849A4DE00906764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				783DECBA285EB9100062343E /* SummaryTableViews */,
+				780E4F6F284BCD9B00DE408E /* CellViews */,
+				78295CA42849A4EF00906764 /* ReportTableView.swift */,
+				783DECA5285ACB630062343E /* ReportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		783DECB5285E51870062343E /* CellVM */ = {
+			isa = PBXGroup;
+			children = (
+				780E4F73284BD7EE00DE408E /* ReportTableCellVM.swift */,
+				783DECB6285E51A10062343E /* SummarySectionResultCellVM.swift */,
+				783DECBB285EC00D0062343E /* CurrentVolumeSectionResultCellVM.swift */,
+			);
+			path = CellVM;
+			sourceTree = "<group>";
+		};
+		783DECBA285EB9100062343E /* SummaryTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				783DECAF285D75510062343E /* ReportSectionSummaryTableView.swift */,
+				783DECBD285EC5C60062343E /* ReportSectionCurrentVolumeTableView.swift */,
+			);
+			path = SummaryTableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +220,9 @@
 			dependencies = (
 			);
 			name = USDA_AMS;
+			packageProductDependencies = (
+				78295C9128485DAB00906764 /* Alamofire */,
+			);
 			productName = USDA_AMS;
 			productReference = 78295C79284859CE00906764 /* USDA_AMS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 78295C70284859CE00906764;
+			packageReferences = (
+				78295C9028485DAB00906764 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 78295C7A284859CE00906764 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +281,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78295C81284859CE00906764 /* ViewController.swift in Sources */,
+				783DECA4285A64A40062343E /* DateHelpers.swift in Sources */,
+				78295C81284859CE00906764 /* MainViewController.swift in Sources */,
+				783DECA6285ACB630062343E /* ReportView.swift in Sources */,
+				783DECB9285EB0D40062343E /* ReportSectionCurrentVolume.swift in Sources */,
+				780E4F76284C4EA200DE408E /* ReportTableVM.swift in Sources */,
+				783DECC0285EC6550062343E /* ReportSectionCurrentVolumeViewVM.swift in Sources */,
+				783DECA8285AD9400062343E /* ReportViewVM.swift in Sources */,
+				783DECB0285D75510062343E /* ReportSectionSummaryTableView.swift in Sources */,
+				78295C9C2848684F00906764 /* Extensions.swift in Sources */,
+				78295C9528485E4900906764 /* UsdaService.swift in Sources */,
+				783DECAE285D58870062343E /* ModelMap.swift in Sources */,
+				783DECB2285D76260062343E /* ReportSectionSummaryViewVM.swift in Sources */,
+				780E4F71284BCDB500DE408E /* ReportTableViewCell.swift in Sources */,
+				78295C9928485FC000906764 /* ReportModel.swift in Sources */,
+				783DECC2285EC85A0062343E /* CurrentVolumeSectionResultCell.swift in Sources */,
 				78295C7D284859CE00906764 /* AppDelegate.swift in Sources */,
+				78295CA52849A4EF00906764 /* ReportTableView.swift in Sources */,
+				783DECB7285E51A10062343E /* SummarySectionResultCellVM.swift in Sources */,
 				78295C7F284859CE00906764 /* SceneDelegate.swift in Sources */,
+				780E4F74284BD7EE00DE408E /* ReportTableCellVM.swift in Sources */,
+				783DECBC285EC00D0062343E /* CurrentVolumeSectionResultCellVM.swift in Sources */,
+				783DECAC285D55770062343E /* ReportSectionSummary.swift in Sources */,
+				783DECB4285E48920062343E /* SummarySectionResultCell.swift in Sources */,
+				783DECBE285EC5C60062343E /* ReportSectionCurrentVolumeTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +520,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78295C9028485DAB00906764 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78295C9128485DAB00906764 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78295C9028485DAB00906764 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78295C71284859CE00906764 /* Project object */;
 }
